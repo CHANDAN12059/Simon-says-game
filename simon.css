@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: #424141;
+    background-image: url("wp2919299.jpg");
+    background-size: cover;
+}
+
+.container{
+    height:500px;
+    width:500px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.box{
+
+    height:200px;
+    width: 200px;
+    border-radius: 3rem;
+    border: 10px solid black;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.purple{
+    background-color: #819ff9;
+}
+.userflash{
+    background-color: rgb(9, 255, 0);
+}
+.gameflash{
+    background-color: rgb(255, 255, 255);
+}
